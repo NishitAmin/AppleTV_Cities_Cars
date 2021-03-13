@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA00C6E25841A3E00DC34C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C6D25841A3E00DC34C8 /* AppDelegate.swift */; };
+		AEA00C7025841A3E00DC34C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C6F25841A3E00DC34C8 /* ViewController.swift */; };
+		AEA00C7325841A3E00DC34C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C7125841A3E00DC34C8 /* Main.storyboard */; };
+		AEA00C7525841A4000DC34C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C7425841A4000DC34C8 /* Assets.xcassets */; };
+		AEA00C8525841B4B00DC34C8 /* montreal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8025841B4B00DC34C8 /* montreal.jpeg */; };
+		AEA00C8625841B4B00DC34C8 /* sanfran.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8125841B4B00DC34C8 /* sanfran.jpeg */; };
+		AEA00C8725841B4B00DC34C8 /* nyc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8225841B4B00DC34C8 /* nyc.jpeg */; };
+		AEA00C8825841B4B00DC34C8 /* toronto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8325841B4B00DC34C8 /* toronto.jpeg */; };
+		AEA00C8925841B4B00DC34C8 /* vancouver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8425841B4B00DC34C8 /* vancouver.jpeg */; };
+		AEA00C8D258420CB00DC34C8 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8A258420CA00DC34C8 /* 3.jpeg */; };
+		AEA00C8E258420CB00DC34C8 /* A4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8B258420CB00DC34C8 /* A4.jpeg */; };
+		AEA00C8F258420CB00DC34C8 /* S.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA00C8C258420CB00DC34C8 /* S.jpeg */; };
+		AEA00C912584215200DC34C8 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C902584215200DC34C8 /* CarDetails.swift */; };
+		AEA00C932584215E00DC34C8 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C922584215E00DC34C8 /* CityDetails.swift */; };
+		AEA00C952584219D00DC34C8 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C942584219D00DC34C8 /* CityTableViewCell.swift */; };
+		AEA00C97258421F000DC34C8 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C96258421F000DC34C8 /* CarViewController.swift */; };
+		AEA00C992584220200DC34C8 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C982584220200DC34C8 /* CityViewController.swift */; };
+		AEA00C9B2584221800DC34C8 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C9A2584221800DC34C8 /* CityTableViewController.swift */; };
+		AEA00C9D25843C4A00DC34C8 /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00C9C25843C4A00DC34C8 /* CarCollectionViewCell.swift */; };
+		AEA00CA02584675500DC34C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA00C9F2584675500DC34C8 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEA00C6A25841A3E00DC34C8 /* Cars_Cities_TVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars_Cities_TVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA00C6D25841A3E00DC34C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEA00C6F25841A3E00DC34C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEA00C7225841A3E00DC34C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA00C7425841A4000DC34C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA00C7625841A4000DC34C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA00C8025841B4B00DC34C8 /* montreal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montreal.jpeg; sourceTree = "<group>"; };
+		AEA00C8125841B4B00DC34C8 /* sanfran.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanfran.jpeg; sourceTree = "<group>"; };
+		AEA00C8225841B4B00DC34C8 /* nyc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpeg; sourceTree = "<group>"; };
+		AEA00C8325841B4B00DC34C8 /* toronto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toronto.jpeg; sourceTree = "<group>"; };
+		AEA00C8425841B4B00DC34C8 /* vancouver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vancouver.jpeg; sourceTree = "<group>"; };
+		AEA00C8A258420CA00DC34C8 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		AEA00C8B258420CB00DC34C8 /* A4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A4.jpeg; sourceTree = "<group>"; };
+		AEA00C8C258420CB00DC34C8 /* S.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S.jpeg; sourceTree = "<group>"; };
+		AEA00C902584215200DC34C8 /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		AEA00C922584215E00DC34C8 /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
+		AEA00C942584219D00DC34C8 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		AEA00C96258421F000DC34C8 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		AEA00C982584220200DC34C8 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		AEA00C9A2584221800DC34C8 /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		AEA00C9C25843C4A00DC34C8 /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEA00C9F2584675500DC34C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA00C6725841A3E00DC34C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA00CA02584675500DC34C8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA00C6125841A3E00DC34C8 = {
+			isa = PBXGroup;
+			children = (
+				AEA00C6C25841A3E00DC34C8 /* Cars_Cities_TVApp */,
+				AEA00C6B25841A3E00DC34C8 /* Products */,
+				AEA00C9E2584675400DC34C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA00C6B25841A3E00DC34C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C6A25841A3E00DC34C8 /* Cars_Cities_TVApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA00C6C25841A3E00DC34C8 /* Cars_Cities_TVApp */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C7C25841AC100DC34C8 /* Storyboards */,
+				AEA00C7D25841AD000DC34C8 /* Images */,
+				AEA00C7F25841AE600DC34C8 /* Classes */,
+				AEA00C7E25841ADA00DC34C8 /* View Controllers */,
+				AEA00C7625841A4000DC34C8 /* Info.plist */,
+				AEA00C7425841A4000DC34C8 /* Assets.xcassets */,
+			);
+			path = Cars_Cities_TVApp;
+			sourceTree = "<group>";
+		};
+		AEA00C7C25841AC100DC34C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C7125841A3E00DC34C8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AEA00C7D25841AD000DC34C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C8A258420CA00DC34C8 /* 3.jpeg */,
+				AEA00C8B258420CB00DC34C8 /* A4.jpeg */,
+				AEA00C8C258420CB00DC34C8 /* S.jpeg */,
+				AEA00C8025841B4B00DC34C8 /* montreal.jpeg */,
+				AEA00C8225841B4B00DC34C8 /* nyc.jpeg */,
+				AEA00C8125841B4B00DC34C8 /* sanfran.jpeg */,
+				AEA00C8325841B4B00DC34C8 /* toronto.jpeg */,
+				AEA00C8425841B4B00DC34C8 /* vancouver.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEA00C7E25841ADA00DC34C8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C6F25841A3E00DC34C8 /* ViewController.swift */,
+				AEA00C96258421F000DC34C8 /* CarViewController.swift */,
+				AEA00C982584220200DC34C8 /* CityViewController.swift */,
+				AEA00C9A2584221800DC34C8 /* CityTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AEA00C7F25841AE600DC34C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C6D25841A3E00DC34C8 /* AppDelegate.swift */,
+				AEA00C902584215200DC34C8 /* CarDetails.swift */,
+				AEA00C922584215E00DC34C8 /* CityDetails.swift */,
+				AEA00C942584219D00DC34C8 /* CityTableViewCell.swift */,
+				AEA00C9C25843C4A00DC34C8 /* CarCollectionViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEA00C9E2584675400DC34C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00C9F2584675500DC34C8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA00C6925841A3E00DC34C8 /* Cars_Cities_TVApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA00C7925841A4000DC34C8 /* Build configuration list for PBXNativeTarget "Cars_Cities_TVApp" */;
+			buildPhases = (
+				AEA00C6625841A3E00DC34C8 /* Sources */,
+				AEA00C6725841A3E00DC34C8 /* Frameworks */,
+				AEA00C6825841A3E00DC34C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cars_Cities_TVApp;
+			productName = Cars_Cities_TVApp;
+			productReference = AEA00C6A25841A3E00DC34C8 /* Cars_Cities_TVApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA00C6225841A3E00DC34C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Nishit Amin";
+				TargetAttributes = {
+					AEA00C6925841A3E00DC34C8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AEA00C6525841A3E00DC34C8 /* Build configuration list for PBXProject "Cars_Cities_TVApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA00C6125841A3E00DC34C8;
+			productRefGroup = AEA00C6B25841A3E00DC34C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA00C6925841A3E00DC34C8 /* Cars_Cities_TVApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA00C6825841A3E00DC34C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA00C8725841B4B00DC34C8 /* nyc.jpeg in Resources */,
+				AEA00C7525841A4000DC34C8 /* Assets.xcassets in Resources */,
+				AEA00C8F258420CB00DC34C8 /* S.jpeg in Resources */,
+				AEA00C8625841B4B00DC34C8 /* sanfran.jpeg in Resources */,
+				AEA00C8E258420CB00DC34C8 /* A4.jpeg in Resources */,
+				AEA00C8925841B4B00DC34C8 /* vancouver.jpeg in Resources */,
+				AEA00C8825841B4B00DC34C8 /* toronto.jpeg in Resources */,
+				AEA00C8D258420CB00DC34C8 /* 3.jpeg in Resources */,
+				AEA00C7325841A3E00DC34C8 /* Main.storyboard in Resources */,
+				AEA00C8525841B4B00DC34C8 /* montreal.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA00C6625841A3E00DC34C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA00C9B2584221800DC34C8 /* CityTableViewController.swift in Sources */,
+				AEA00C912584215200DC34C8 /* CarDetails.swift in Sources */,
+				AEA00C97258421F000DC34C8 /* CarViewController.swift in Sources */,
+				AEA00C7025841A3E00DC34C8 /* ViewController.swift in Sources */,
+				AEA00C9D25843C4A00DC34C8 /* CarCollectionViewCell.swift in Sources */,
+				AEA00C952584219D00DC34C8 /* CityTableViewCell.swift in Sources */,
+				AEA00C6E25841A3E00DC34C8 /* AppDelegate.swift in Sources */,
+				AEA00C932584215E00DC34C8 /* CityDetails.swift in Sources */,
+				AEA00C992584220200DC34C8 /* CityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEA00C7125841A3E00DC34C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA00C7225841A3E00DC34C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA00C7725841A4000DC34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+			};
+			name = Debug;
+		};
+		AEA00C7825841A4000DC34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA00C7A25841A4000DC34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cars_Cities_TVApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nishit.amin.Cars-Cities-TVApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		AEA00C7B25841A4000DC34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cars_Cities_TVApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nishit.amin.Cars-Cities-TVApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA00C6525841A3E00DC34C8 /* Build configuration list for PBXProject "Cars_Cities_TVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA00C7725841A4000DC34C8 /* Debug */,
+				AEA00C7825841A4000DC34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA00C7925841A4000DC34C8 /* Build configuration list for PBXNativeTarget "Cars_Cities_TVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA00C7A25841A4000DC34C8 /* Debug */,
+				AEA00C7B25841A4000DC34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA00C6225841A3E00DC34C8 /* Project object */;
+}
